@@ -1,0 +1,35 @@
+article.middle{
+    padding: 40px;
+   }
+   article.sidebar2{
+     
+     border-left: 4px solid #f1eeeebe;
+     padding: 30px;
+     
+   }
+   article.sidebar{
+     justify-self: start;
+     border-right: 4px solid #f1eeeebe;
+   padding: 30px;
+   }
+   li{
+     list-style-type: none;
+     padding: 4px;
+     margin-left: 0px;
+   }
+   @media  screen and (max-width:1200px) {
+    .grid-container{
+      grid-column: span 2;
+    }
+    
+   
+    
+  }
+  
+  
+  @media screen and (max-width:800px) {
+    article.middle{
+      grid-column: span 3;
+    }
+    
+  }
